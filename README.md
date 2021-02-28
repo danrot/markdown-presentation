@@ -10,6 +10,6 @@ presentation template by switching the tag of the submodule.
 
 ## Prerequisites
 
-- [pandoc](https://pandoc.org/installing.html) has to be installed and be available in the `PATH`
+- [`pandoc`](https://pandoc.org/installing.html) has to be installed and be available in the `PATH`
 - The [`make`](https://www.gnu.org/software/make/) command has to be available in the `PATH`
 be generated
