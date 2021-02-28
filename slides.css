@@ -75,3 +75,11 @@ td, th {
     border-top: 1px solid #dee2e6;
     padding: 2vh;
 }
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-size: .5rem;
+}
