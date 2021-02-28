@@ -1,3 +1,5 @@
+MARKDOWN_PRESENTATION_DIR=.
+
 all:
 	pandoc\
 	    slides.md\
@@ -5,5 +7,5 @@ all:
 	    -s\
 	    --self-contained\
 	    --section-divs\
-	    -c slides.css\
-	    -A slides_before_body.html
+	    -c $(MARKDOWN_PRESENTATION_DIR)/slides.css\
+	    -A $(MARKDOWN_PRESENTATION_DIR)/slides_before_body.html
