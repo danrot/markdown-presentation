@@ -60,7 +60,7 @@ pre {
     line-height: 1.5;
 }
 
-code {
+:not(h2) > code {
     background-color: #eee;
 }
 
