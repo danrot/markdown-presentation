@@ -40,6 +40,10 @@ p {
     margin: .5rem;
 }
 
+a {
+    color: #4169e1;
+}
+
 ul {
     margin-left: 1.5rem;
     margin-right: 0.5rem;
