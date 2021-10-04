@@ -13,9 +13,11 @@ document.addEventListener('keydown', function(event) {
 
     switch (event.key) {
         case 'ArrowLeft':
+        case 'PageUp':
             goToSlide(currentSlide - 1);
             break;
         case 'ArrowRight':
+        case 'PageDown':
             goToSlide(currentSlide + 1);
             break;
     }
