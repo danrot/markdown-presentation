@@ -52,7 +52,7 @@ a {
     color: #4169e1;
 }
 
-ul {
+ol, ul {
     margin-left: 1.5rem;
     margin-right: 0.5rem;
 }
