@@ -78,6 +78,9 @@ pre {
 
 table {
     border-spacing: 0;
+    display: block;
+    max-width: 100%;
+    overflow: scroll;
 }
 
 tbody tr:nth-child(odd) {
