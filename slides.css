@@ -44,9 +44,19 @@ p {
 }
 
 img {
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     object-fit: contain;
+}
+
+h2:empty {
+	margin: 0;
+}
+
+h2:empty + :not(blockquote) {
+	width: 100vw;
+	height: 100vw;
+	margin: 0;
 }
 
 a {
