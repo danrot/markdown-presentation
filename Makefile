@@ -5,7 +5,7 @@ all:
 	    slides.md\
 	    -o slides.html\
 	    -s\
-	    --self-contained\
+	    --embed-resources\
 	    --section-divs\
 	    -c $(MARKDOWN_PRESENTATION_DIR)/slides.css\
 	    -A $(MARKDOWN_PRESENTATION_DIR)/slides_before_body.html
