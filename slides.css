@@ -43,7 +43,7 @@ p {
     text-align: center;
 }
 
-img {
+img, svg {
     height: 100%;
     width: 100%;
     object-fit: contain;
